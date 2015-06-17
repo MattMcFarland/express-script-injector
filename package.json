@@ -1,0 +1,28 @@
+{
+  "name": "express-script-injector",
+  "version": "0.0.1",
+  "description": "Express Middleware that injects external javascript files in <script> tags, saving you from an additional http request!",
+  "main": "index.js",
+  "keywords": [
+    "express",
+    "script",
+    "tag",
+    "injection",
+    "injector",
+    "inject",
+    "middleware"
+  ],
+  "author": "Matt McFarland",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMcFarland/express-script-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MattMcFarland/express-script-injector/issues"
+  },
+  "homepage": "https://github.com/MattMcFarland/express-script-injector"
+}
