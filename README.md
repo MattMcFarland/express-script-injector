@@ -66,6 +66,29 @@ Then somewhere in your home.hbs file:
 {{{injectedScript}}}
 ```
 
+## Router Example
+
+```js
+
+var
+    router  = require('express').Router(),
+    inject = require('express-script-injector');
+
+router.use(inject({path: __dirname + '/../scripts'}));
+
+router.get('*', function(req, res, next) {
+    try {
+        res.render('index', {script: req._script});
+    } catch(e) {
+        next(e);
+    }
+});
+
+module.exports = router;
+```
+
+
+
 > This outputs the js in a `<script>` tag with the id of "injector-" + the file name
 
 ## Options

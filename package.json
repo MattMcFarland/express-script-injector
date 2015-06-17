@@ -1,7 +1,7 @@
 {
   "name": "express-script-injector",
-  "version": "0.0.1",
-  "description": "Express Middleware that injects external javascript files in <script> tags, saving you from an additional http request!",
+  "version": "0.0.2",
+  "description": "Express Middleware that injects external javascript files in script tags, saving you from an additional http request!",
   "main": "index.js",
   "keywords": [
     "express",
