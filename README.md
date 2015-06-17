@@ -72,11 +72,11 @@ Then somewhere in your home.hbs file:
 
 <table>
     <thead>
-        <th>
-            <td>Name</td>
-            <td>Description</td>
-            <td>Default</td>
-        </th>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Default</th>
+        </tr>
     </thead>
     <tbody>
         <tr>
